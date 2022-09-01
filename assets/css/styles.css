@@ -51,9 +51,9 @@ h1 {
 
 .login-bg {
   height: 100vh;
-  background: url(https://rtsolutz.com/vizzstudio/demo-falr/falr/assets/images/login-bg.jpg)
-    no-repeat;
+  background: url('../img/login-bg.jpg') no-repeat;
   background-size: cover;
+  background-position: right;
   width: 470px;
   float: left;
   position: relative;
@@ -85,7 +85,9 @@ h1 {
   transform: translate(-50%, -50%);
   width: 100%;
 }
-
+.login-left h2 {
+  color: #fff;
+}
 .login-left p {
   font-size: 15px;
   color: #fff;
